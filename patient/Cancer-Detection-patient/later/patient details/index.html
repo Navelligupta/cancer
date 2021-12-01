@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row col-md-6 col-md-offset-3">
+        <div class="panel panel-primary">
+          <div class="panel-heading text-center">
+            <h1>Please Enter Patients Details Symptoms</h1>
+          </div>
+          <div class="panel-body">
+            <form action="connect.php" method="post">
+              <div class="form-group">
+                <label for="patientid">Patient ID</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="patientid"
+                  name="patientid"
+                />
+              <div class="form-group">
+                <label for="doc_id">Doctor ID</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="doc_id"
+                  name="doc_id"
+                />
+                <div class="form-group">
+                  <label for="clump">clump</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="clump"
+                    name="clump"
+                  />
+                </div>
+                
+                <div class="form-group">
+                  <label for="unifsize">unifsize</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="unifsize"
+                    name="unifsize"
+                  />
+                </div>
+               
+                <div class="form-group">
+                  <label for="unifshape">unifshape</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="unifshape"
+                    name="unifshape"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="margadh">margadh</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="margadh"
+                    name="margadh"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="singepisize">singepisize</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="singepisize"
+                    name="singepisize"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="barenuc">barenuc</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="barenuc"
+                    name="barenuc"
+                  />
+                  </div>
+                  <div class="form-group">
+                      <label for="BlandChrom">BlandChrom</label>
+                      <input
+                        type="number"
+                        class="form-control"
+                        id="BlandChrom"
+                        name="BlandChrom"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="NormNucl">NormNucl</label>
+                      <input
+                        type="number"
+                        class="form-control"
+                        id="NormNucl"
+                        name="NormNucl"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="Mit">Mit</label>
+                      <input
+                        type="number"
+                        class="form-control"
+                        id="Mit"
+                        name="Mit"
+                      />
+                    </div>
+                </div>
+              </div>
+              <input type="submit" class="btn btn-primary" />
+            </form>
+          </div>
+          <div class="panel-footer text-right">
+            <small>&copy; Cordial Care</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="toast-header">
+    
+    <strong class="mr-auto"></strong>
+    <small></small>
+    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="toast-body">
+    
+  </div>
+</div>
+  </body>
+</html>
