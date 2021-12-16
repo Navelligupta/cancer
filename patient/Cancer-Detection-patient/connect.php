@@ -2,7 +2,7 @@
     session_start(); 
  
   $username = $_SESSION["username"];
-	$firstName = ['firstName'];
+	$firstName =$_POST['firstName'];
 	$lastName = $_POST['lastName'];
 	$gender = $_POST['gender'];
 	$email = $_POST['email'];
