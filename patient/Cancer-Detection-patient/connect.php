@@ -1,7 +1,7 @@
 <?php
     session_start(); 
  
-  $username = $_SESSION["username"];
+  $username = ["username"];
 	$firstName = $_POST['firstName'];
 	$lastName = $_POST['lastName'];
 	$gender = $_POST['gender'];
